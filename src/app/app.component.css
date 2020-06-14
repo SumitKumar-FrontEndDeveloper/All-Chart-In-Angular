@@ -1,0 +1,56 @@
+.chartBtn {
+    background: #db780f !important;
+    color: #fff;
+    border: 1px solid #db780f !important;
+    width: 178px;
+    padding: 10px;
+   
+}
+
+
+.chartBtn.pie {
+    background: green !important;
+    color: #fff;
+    border: 1px solid green !important;
+}
+
+.chartBtn.line {
+    background: red !important;
+    color: #fff;
+    border: 1px solid green !important;
+}
+
+.chartBtn.bar {
+    background: rgb(190, 134, 29) !important;
+    color: #fff;
+    border: 1px solid rgb(190, 134, 29) !important;
+}
+
+.chartBtn.radar {
+    background: rgb(0, 183, 255) !important;
+    color: #fff;
+    border: 1px solid rgb(0, 183, 255) !important;
+}
+
+.chartBtn.dough {
+    background: #803b00 !important;
+    color: #fff;
+    border: 1px solid #803b00 !important;
+}
+
+.chartBtn.bubble {
+    background: rgb(152, 172, 152) !important;
+    color: #fff;
+    border: 1px solid rgb(152, 172, 152) !important;
+}
+.cHead {
+    margin-top: 10px;
+}
+.centerText {
+    text-align: center;
+}
+
+
+.chartButton {
+    margin-top:20px
+}

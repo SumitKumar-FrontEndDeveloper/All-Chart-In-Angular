@@ -1,0 +1,43 @@
+<div class="row chartButton">
+  <div class="col-2">
+      <button [routerLink]="['/chart/pie']" class="chartBtn pie" >
+          Pie Chart
+        </button>
+  </div>
+  <div class="col-2">
+      <button [routerLink]="['/chart/line']" class="chartBtn line" >
+          Line Chart
+        </button>
+  </div>
+
+  <div class="col-2">
+      <button [routerLink]="['/chart/radar']" class="chartBtn radar" >
+          Radar Chart
+        </button>
+  </div>
+
+  <div class="col-2">
+      <button [routerLink]="['/chart/bubble']" class="chartBtn bubble" >
+          Bubble Chart
+        </button>
+  </div>
+
+  <div class="col-2">
+      <button [routerLink]="['/chart/dough']" class="chartBtn dough" >
+          Doughunt Chart
+        </button>
+  </div>
+
+  <div class="col-2">
+      <button [routerLink]="['/chart/bar']" class="chartBtn bar" >
+          Bar Chart
+        </button>
+  </div>
+</div>
+<div class="row cHead" >
+  <div class="col-12 centerText">
+      <h3>We are here to show diffrent type of chart</h3>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
